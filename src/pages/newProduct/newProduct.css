@@ -1,0 +1,61 @@
+.newProduct {
+  flex: 4;
+  background: #e7eef3;
+  padding: 20px;
+}
+
+.addProductForm {
+  margin-top: 10px;
+}
+
+.addProductItem {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addProductItem > label {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  background: #ececec;
+  box-shadow: 0px 4px 9px rgba(173, 211, 240, 0.47);
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.addProductItem > select {
+  margin-bottom: 10px;
+  height: 50px;
+  background: #ececec;
+  box-shadow: 0px 4px 9px rgba(173, 211, 240, 0.47);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 0px 8px;
+}
+
+.addNewProductButton {
+  background: rgba(242, 246, 249, 0.75);
+  border-radius: 30px;
+  border: 1px solid rgba(147, 195, 232, 0.7);
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.addNewProductButton:hover {
+  background: rgba(242, 246, 249, 0.7);
+  box-shadow: 0px 4px 33px rgba(147, 195, 232, 0.7);
+  transform: translateY(-2px);
+  border: none;
+}

@@ -1,0 +1,71 @@
+.newUser {
+  flex: 4;
+  background: #e7eef3;
+  padding: 20px;
+}
+
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUerItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.newUerItem > label {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+}
+
+.newUerItem > input {
+  background: #ececec;
+  box-shadow: 0px 4px 9px rgba(173, 211, 240, 0.47);
+  border-radius: 20px;
+  height: 50px;
+  padding-left: 8px;
+  outline: none;
+  border: none;
+}
+
+.newUserGender > label {
+  margin: 10px;
+  color: #555;
+  font-size: 18px;
+}
+
+.newUserSelect {
+  height: 50px;
+  background: #ececec;
+  box-shadow: 0px 4px 9px rgba(173, 211, 240, 0.47);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 0px 8px;
+}
+
+.newUserButton {
+  width: 400px;
+  margin-top: 30px;
+  background: rgba(242, 246, 249, 0.75);
+  border-radius: 30px;
+  border: 1px solid rgba(147, 195, 232, 0.7);
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.newUserButton:hover {
+  background: rgba(242, 246, 249, 0.7);
+  box-shadow: 0px 4px 33px rgba(147, 195, 232, 0.7);
+  transform: translateY(-2px);
+  border: none;
+}

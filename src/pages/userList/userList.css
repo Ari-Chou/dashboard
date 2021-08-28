@@ -1,0 +1,31 @@
+.userList {
+  flex: 4;
+  background: #e7eef3;
+  padding-top: 10px;
+}
+
+.userListEdit {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: 600;
+  color: #555;
+  margin-right: 10px;
+  background: rgba(242, 246, 249, 0.75);
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.userListEdit:hover {
+  background: rgba(242, 246, 249, 0.7);
+  box-shadow: 0px 4px 33px rgba(147, 195, 232, 0.7);
+  transform: translateY(-2px);
+  border: none;
+}
+
+.userListEditIcon {
+  color: rgb(252, 127, 127);
+}
+
+.userListEditIcon:hover {
+  color: rgb(255, 0, 0);
+}
